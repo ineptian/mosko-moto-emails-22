@@ -1,13 +1,15 @@
-<mj-section padding="0">
-	<mj-group>
-	  <mj-column>
-  		<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/de1afdeb-498c-4ea7-b11f-a124cba99534.jpg" alt="Moto Luggage - Shop All" padding="0" width="300px" href="https://moskomoto.com/collections/motorcycle-luggage" />
-  	</mj-column>
-  	<mj-column>
-  		<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/1e5d6fee-cc2f-4379-8027-df99b7251d17.jpg" alt="Apparel - Shop All" padding="0" width="300px" href="https://moskomoto.com/collections/apparel" />
-  	</mj-column>
-	</mj-group>
-</mj-section>
+<mj-raw><div class="mc-hideable"></mj-raw>
+  <mj-section padding="0">
+  	<mj-group>
+  	  <mj-column>
+    		<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/de1afdeb-498c-4ea7-b11f-a124cba99534.jpg" alt="Moto Luggage - Shop All" padding="0" width="300px" href="https://moskomoto.com/collections/motorcycle-luggage" />
+    	</mj-column>
+    	<mj-column>
+    		<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/1e5d6fee-cc2f-4379-8027-df99b7251d17.jpg" alt="Apparel - Shop All" padding="0" width="300px" href="https://moskomoto.com/collections/apparel" />
+    	</mj-column>
+  	</mj-group>
+  </mj-section>
+<mj-raw></div></mj-raw>
 <mj-section background-color="#00A8E8" padding="0">
 	<mj-column padding="0">
 		<mj-divider border-width="4px" border-color="#00A8E8" padding="0" />
@@ -54,12 +56,12 @@
         <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;"> 509-281-3211
       </a>
     </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="18px" font-weight="600" font-style="italic">
+    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600" font-style="italic">
       <a href="mailto:moskomoto@moskomoto.com">
         <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/0e1f9679-3c64-4a59-ac32-37ed446522f8.png" alt="" width="15" style="width:100%;max-width:15px;vertical-align: middle;"> moskomoto@moskomoto.com
       </a>
     </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="18px" font-weight="600">
+    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600">
       <a href="https://moskomoto.com/pages/busted-gear">
         <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/f13633ec-a1fe-4d5e-948a-453707e026fd.png" alt="" width="30" style="width:100%;max-width:30px;vertical-align: middle;"> Our Warranty
       </a>
@@ -74,7 +76,7 @@
     <mj-text align="center" color="#fefefe" font-size="14px" padding-top="20px">
       © *|CURRENT_YEAR|* Mosko Moto, All rights reserved.
     </mj-text>
-    <mj-text align="center" color="#fefefe" font-size="12px">
+    <mj-text align="center" color="#fefefe" font-size="12px" padding-bottom="40px">
       *|LIST:ADDRESSLINE|*
     </mj-text>
   </mj-column>

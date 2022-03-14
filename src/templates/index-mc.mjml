@@ -106,15 +106,15 @@
   
 	<mj-raw><div mc:repeatable="mosko_section" mc:variant="two column content"></mj-raw>
     <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
-      <mj-column>
+      <mj-column vertical-align="top" padding-top="20px">
         <mj-image 
-          css-class="grid-2 mc-hideable mc-edit-two_col_img1"
+          css-class="grid-2 mc-hideable mc-edit-two_col1_img"
           src="https://via.placeholder.com/250x250" 
           alt=""  
           padding="10px 10px 10px 40px" 
         />
         <mj-text 
-        css-class="grid-2"
+        css-class="grid-2 mc-edit-two_col1_headline mc-hideable"
         align="center"
         font-size="18px"
         font-weight="bold"
@@ -124,7 +124,7 @@
           Centered Headline
         </mj-text>
         <mj-text 
-        css-class="grid-2"
+        css-class="grid-2 mc-edit-two_col1_copy mc-hideable"
         align="center"
         font-size="14px"
         padding-top="10px"
@@ -132,11 +132,23 @@
         padding-right="10px">
           Less is More, Our Favorite Product
         </mj-text>
+        <mj-button
+          href="#"
+          css-class="btn-link grid-2 mc-edit-two_col1_link mc-hideable"
+          padding-left="40px"
+          padding-right="10px">
+          |CTA HERE|
+        </mj-button>
       </mj-column>
-      <mj-column>
-        <mj-image src="https://via.placeholder.com/250x250" alt="" css-class="grid-2" padding="10px 40px 10px 10px" />
+      <mj-column vertical-align="top" padding-top="20px">
+        <mj-image 
+          src="https://via.placeholder.com/250x250" 
+          css-class="grid-2 mc-hideable mc-edit-two_col2_img"
+          alt=""  
+          padding="10px 40px 10px 10px" 
+        />
         <mj-text 
-        css-class="grid-2"
+        css-class="grid-2 mc-edit-two_col2_headline mc-hideable"
         align="center"
         font-size="18px"
         font-weight="bold"
@@ -146,7 +158,7 @@
           Centered Headline
         </mj-text>
         <mj-text 
-        css-class="grid-2"
+        css-class="grid-2 mc-edit-two_col2_copy mc-hideable"
         align="center"
         font-size="14px"
         padding-top="10px"
@@ -154,83 +166,142 @@
         padding-right="40px">
           Less is More, Our Favorite Product
         </mj-text>
+        <mj-button
+          href="#"
+          css-class="btn-link grid-2 mc-edit-two_col2_link mc-hideable"
+          padding-right="40px"
+          padding-left="10px"
+          >
+          |CTA HERE|
+        </mj-button>
       </mj-column>
     </mj-section>
 	<mj-raw></div></mj-raw>
-	<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
-		<mj-column>
-			<mj-image src="https://via.placeholder.com/520x340" alt="" padding="0 40px" width="520px" />
-		</mj-column>
-	</mj-section>
 
-	<mj-section background-color="#f7f7f7">
-		<mj-column width="">
-			<mj-button href="#" css-class="btn-link" padding="10px 40px">
-				|CTA HERE|
-			</mj-button>
-		</mj-column>
-	</mj-section>
-	
-	<mj-section background-color="#f7f7f7">
-		<mj-column>
-			<mj-divider border-width="1px" border-color="#343434" padding="10px 40px" />
-		</mj-column>
-	</mj-section>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 10px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 30px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 60px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="60px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
 
-	<mj-section background-color="#f1f1f1" padding-top="60px" padding-bottom="60px">
-		<mj-column vertical-align="middle">
-			<mj-image src="https://via.placeholder.com/240x240" alt="" css-class="grid-2" padding="10px 20px 10px 40px" />
-		</mj-column>
-		<mj-column vertical-align="middle">
-			<mj-text 
-			css-class="grid-2 small-text-center"
-			align="left"
-			font-size="18px"
-			font-weight="bold"
-			padding-left="20px"
-			padding-right="40px">
-				Why we love this.
-			</mj-text>
-			<mj-text 
-			css-class="grid-2 small-text-center"
-			align="left"
-			font-size="14px"
-			padding-top="10px"
-			padding-left="20px"
-			padding-right="40px"
-			line-height="1.4">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
-			</mj-text>
-		</mj-column>
-	</mj-section>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="image with button"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column>
+        <mj-image 
+          src="https://via.placeholder.com/520x340" 
+          css-class="mc-edit-imagebtn_img"
+          alt="" 
+          padding="0 40px" 
+          width="520px" />
+        <mj-button 
+          href="#" 
+          css-class="btn-link mc-hideable mc-edit-imagebtn_btn" 
+          padding="30px 40px 0">
+          |CTA HERE|
+        </mj-button>
+      </mj-column>
+    </mj-section>
+	<mj-raw></div></mj-raw>
 
-	<mj-section background-color="#f7f7f7" padding-top="60px" padding-bottom="60px" direction="rtl">
-		<mj-column vertical-align="middle">
-			<mj-image src="https://via.placeholder.com/240x240" alt="" css-class="grid-2" padding="10px 40px 10px 20px" />
-		</mj-column>
-		<mj-column vertical-align="middle">
-			<mj-text 
-			css-class="grid-2 small-text-center"
-			align="left"
-			font-size="18px"
-			font-weight="bold"
-			padding-left="40px"
-			padding-right="20px">
-				Why we love this.
-			</mj-text>
-			<mj-text 
-			css-class="grid-2 small-text-center"
-			align="left"
-			font-size="14px"
-			padding-top="10px"
-			padding-left="40px"
-			padding-right="20px"
-			line-height="1.4">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
-			</mj-text>
-		</mj-column>
-	</mj-section>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="divider line"></mj-raw>
+    <mj-section background-color="#f7f7f7">
+      <mj-column>
+        <mj-divider border-width="1px" border-color="#343434" padding="30px 40px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
 
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="left image with text"></mj-raw>
+    <mj-section background-color="#f1f1f1" padding-top="60px" padding-bottom="60px">
+      <mj-column vertical-align="middle">
+        <mj-image 
+        src="https://via.placeholder.com/240x240" 
+        css-class="grid-2 mc-edit-left_imgtext_img"
+        alt="" 
+        padding="10px 20px 10px 40px" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text 
+          css-class="grid-2 small-text-center mc-hideable mc-edit-left_imgtext_headline"
+          align="left"
+          font-size="18px"
+          font-weight="bold"
+          padding-left="20px"
+          padding-right="40px">
+          Why we love this.
+        </mj-text>
+        <mj-text 
+        css-class="grid-2 small-text-center mc-hideable mc-edit-left_imgtext_copy"
+        align="left"
+        font-size="14px"
+        padding-top="10px"
+        padding-left="20px"
+        padding-right="40px"
+        line-height="1.4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+        </mj-text>
+        <mj-button 
+          href="#" 
+          css-class="grid-2 btn-link small-float-center mc-hideable mc-edit-left_imgtext_btn" 
+          align="left"
+          padding="20px 40px 0 20px">
+          |CTA HERE|
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="right image with text"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-top="60px" padding-bottom="60px" direction="rtl">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://via.placeholder.com/240x240" alt="" css-class="grid-2 mc-edit-right_imgtext_img" padding="10px 40px 10px 20px" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text 
+        css-class="grid-2 small-text-center mc-hideable mc-edit-right_imgtext_headline"
+        align="left"
+        font-size="18px"
+        font-weight="bold"
+        padding-left="40px"
+        padding-right="20px">
+          Why we love this.
+        </mj-text>
+        <mj-text 
+        css-class="grid-2 small-text-center mc-hideable mc-edit-right_imgtext_copy"
+        align="left"
+        font-size="14px"
+        padding-top="10px"
+        padding-left="40px"
+        padding-right="20px"
+        line-height="1.4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+        </mj-text>
+        <mj-button 
+          href="#" 
+          css-class="grid-2 btn-link small-float-center mc-hideable mc-edit-right_imgtext_btn" 
+          align="left"
+          padding="20px 20px 0 40px">
+          |CTA HERE|
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
 	{% include "footer.mjml" %}
 
 {% endblock %}
