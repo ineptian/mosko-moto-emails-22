@@ -4,6 +4,7 @@
 		<mj-preview>{% block preheader %}{% endblock %}</mj-preview>
 
 		<mj-html-attributes>
+		
 			<mj-selector path=".mc-hideable">
 				<mj-html-attribute name="mc:hideable"></mj-html-attribute>
 			</mj-selector>
@@ -11,6 +12,7 @@
 			<mj-selector path=".mc-edit-alert_text div">
 				<mj-html-attribute name="mc:edit">alert_text</mj-html-attribute>
 			</mj-selector>
+
 			<mj-selector path=".mc-edit-hero_image img">
 				<mj-html-attribute name="mc:edit">hero_image</mj-html-attribute>
 			</mj-selector>
@@ -23,6 +25,15 @@
 			<mj-selector path=".mc-edit-hero_copy div">
 				<mj-html-attribute name="mc:edit">hero_copy</mj-html-attribute>
 			</mj-selector>
+
+			<mj-selector path=".mc-edit-centered_headline div">
+				<mj-html-attribute name="mc:edit">centered_headline</mj-html-attribute>
+			</mj-selector>
+
+			<mj-selector path=".mc-edit-two_col_img1 img">
+				<mj-html-attribute name="mc:edit">two_col_img1</mj-html-attribute>
+			</mj-selector>
+
 		</mj-html-attributes>
 
 		<mj-breakpoint width="600px" />
@@ -32,14 +43,17 @@
 				border-radius="9999px"
 				font-weight="600"
 				font-size="16px"
-				font-family="Open Sans,Helvetica,Arial,sans-serif"
+				font-family="'Open Sans',Helvetica,Arial,sans-serif"
+			/>
+			<mj-navbar-link 
+				font-family="'Open Sans',Helvetica,Arial,sans-serif"
 			/>
 			<mj-text 
-				font-family="Open Sans,Helvetica,Arial,sans-serif"
+				font-family="'Open Sans',Helvetica,Arial,sans-serif"
 				color="#343434"
 			/>
 			<mj-social
-				font-family="Open Sans,Helvetica,Arial,sans-serif"
+				font-family="'Open Sans',Helvetica,Arial,sans-serif"
 			/>
 			
 		</mj-attributes>

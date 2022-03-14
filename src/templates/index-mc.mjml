@@ -35,7 +35,7 @@
 		</mj-section>
 	<mj-raw></div></mj-raw>
 
-	<mj-raw><div mc:repeatable="hero_zone"></mj-raw>
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="hero_zone"></mj-raw>
 		<mj-section padding-bottom="0" padding-top="0" css-class="mc-hideable">
 			<mj-column>
 				<mj-image src="https://via.placeholder.com/600x400" alt="" padding="0px" css-class="mc-edit-hero_image" />
@@ -80,7 +80,7 @@
 		</mj-section>
 	<mj-raw></div></mj-raw>
 	
-	<mj-raw><div mc:repeatable="divider"></mj-raw>
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="divider"></mj-raw>
 		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
 			<mj-column>
 				<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/6e2b5dff-0985-4bc6-aa58-91003e94b6a1.jpg" alt="" width="600px" padding="0" />
@@ -88,10 +88,11 @@
 		</mj-section>
 	<mj-raw></div></mj-raw>
 
-	<mj-raw><div mc:repeatable="centered_headline"></mj-raw>
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="centered_headline"></mj-raw>
 		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
 			<mj-column>
 				<mj-text 
+        css-class="mc-edit-centered_headline"
 				align="center"
 				font-size="22px"
 				font-weight="bold"
@@ -102,54 +103,60 @@
 			</mj-column>
 		</mj-section>
 	<mj-raw></div></mj-raw>
-
-	<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
-		<mj-column>
-			<mj-image src="https://via.placeholder.com/250x250" alt="" css-class="grid-2" padding="10px 10px 10px 40px" />
-			<mj-text 
-			css-class="grid-2"
-			align="center"
-			font-size="18px"
-			font-weight="bold"
-			padding-bottom="0"
-			padding-left="40px"
-			padding-right="10px">
-				Centered Headline
-			</mj-text>
-			<mj-text 
-			css-class="grid-2"
-			align="center"
-			font-size="14px"
-			padding-top="10px"
-			padding-left="40px"
-			padding-right="10px">
-				Less is More, Our Favorite Product
-			</mj-text>
-		</mj-column>
-		<mj-column>
-			<mj-image src="https://via.placeholder.com/250x250" alt="" css-class="grid-2" padding="10px 40px 10px 10px" />
-			<mj-text 
-			css-class="grid-2"
-			align="center"
-			font-size="18px"
-			font-weight="bold"
-			padding-bottom="0"
-			padding-left="10px"
-			padding-right="40px">
-				Centered Headline
-			</mj-text>
-			<mj-text 
-			css-class="grid-2"
-			align="center"
-			font-size="14px"
-			padding-top="10px"
-			padding-left="10px"
-			padding-right="40px">
-				Less is More, Our Favorite Product
-			</mj-text>
-		</mj-column>
-	</mj-section>
-	
+  
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="two column content"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column>
+        <mj-image 
+          css-class="grid-2 mc-hideable mc-edit-two_col_img1"
+          src="https://via.placeholder.com/250x250" 
+          alt=""  
+          padding="10px 10px 10px 40px" 
+        />
+        <mj-text 
+        css-class="grid-2"
+        align="center"
+        font-size="18px"
+        font-weight="bold"
+        padding-bottom="0"
+        padding-left="40px"
+        padding-right="10px">
+          Centered Headline
+        </mj-text>
+        <mj-text 
+        css-class="grid-2"
+        align="center"
+        font-size="14px"
+        padding-top="10px"
+        padding-left="40px"
+        padding-right="10px">
+          Less is More, Our Favorite Product
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://via.placeholder.com/250x250" alt="" css-class="grid-2" padding="10px 40px 10px 10px" />
+        <mj-text 
+        css-class="grid-2"
+        align="center"
+        font-size="18px"
+        font-weight="bold"
+        padding-bottom="0"
+        padding-left="10px"
+        padding-right="40px">
+          Centered Headline
+        </mj-text>
+        <mj-text 
+        css-class="grid-2"
+        align="center"
+        font-size="14px"
+        padding-top="10px"
+        padding-left="10px"
+        padding-right="40px">
+          Less is More, Our Favorite Product
+        </mj-text>
+      </mj-column>
+    </mj-section>
+	<mj-raw></div></mj-raw>
 	<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
 		<mj-column>
 			<mj-image src="https://via.placeholder.com/520x340" alt="" padding="0 40px" width="520px" />
