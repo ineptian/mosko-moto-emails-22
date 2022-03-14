@@ -7,18 +7,18 @@
 {% block content %}
 
 	<mj-section background-color="#0a0a0a">
-		<mj-column>
-			<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/b2a2b906-bdbd-4bec-ae22-de705596d25d.png" alt="Mosko Moto" width="217px" align="left" css-class="small-float-center" />
-		</mj-column>
+	<mj-column>
+		<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/b2a2b906-bdbd-4bec-ae22-de705596d25d.png" alt="Mosko Moto" width="217px" align="left" css-class="small-float-center" />
+	</mj-column>
 		<mj-column css-class="show-for-large" >
 			<mj-navbar align="right" padding-right="40px">
-				<mj-navbar-link href="https://moskomoto.com/collections/apparel" color="#fff" font-weight="bold" font-size="14px">
+				<mj-navbar-link href="#" color="#fff" font-weight="bold" font-size="14px">
 					Apparel
 				</mj-navbar-link>
-				<mj-navbar-link href="https://moskomoto.com/collections/motorcycle-luggage" color="#fff" font-weight="bold" font-size="14px">
+				<mj-navbar-link href="#" color="#fff" font-weight="bold" font-size="14px">
 					Luggage
 				</mj-navbar-link>
-				<mj-navbar-link href="https://moskomoto.com/blogs/mosko-moto-blog" color="#fff" font-weight="bold" font-size="14px">
+				<mj-navbar-link href="#" color="#fff" font-weight="bold" font-size="14px">
 					Blog
 				</mj-navbar-link>
 			</mj-navbar>
@@ -28,56 +28,35 @@
 	<mj-raw><div mc:hideable></mj-raw>
 		<mj-section background-color="#00A8E8" padding="0 16px">
 			<mj-column>
-				<mj-text align="center" color="#fff" font-weight="800" letter-spacing="2px" padding="12px 25px" css-class="mc-edit-alert_text">
+				<mj-text align="center" color="#fff" font-weight="800" letter-spacing="2px" padding="12px 25px">				
 					TOUGH GEAR HARD TRAVEL
 				</mj-text>
 			</mj-column>
 		</mj-section>
 	<mj-raw></div></mj-raw>
 
-	<mj-raw><div mc:repeatable="hero_zone"></mj-raw>
-		<mj-section padding-bottom="0" padding-top="0" css-class="mc-hideable">
+	<mj-raw><div mc:repeatable="hero_image"></mj-raw>
+		<mj-section padding-bottom="0" padding-top="0">
 			<mj-column>
-				<mj-image src="https://via.placeholder.com/600x400" alt="" padding="0px" css-class="mc-edit-hero_image" />
+				<mj-image src="https://via.placeholder.com/600x400" alt="" padding="0px" />
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0" css-class="mc-hideable">
-			<mj-column width="480px">
-				<mj-spacer height="20px" css-class="mc-hideable" />
-				<mj-text
-					css-class="mc-hideable mc-edit-hero_headline1"
-					align="center"
-					font-size="22px"
-					font-weight="800"
-					padding-bottom="0px"
-					padding-left="40px"
-					padding-right="40px"
-					>
-					<b>THE INSIDE TRACK</b>
-				</mj-text>
-				<mj-text 
-					css-class="mc-hideable mc-edit-hero_headline2"
-					align="center" 
-					font-style="italic" 
-					font-weight="600" 
-					padding-left="40px" 
-					padding-right="40px"
-					>
-					Bundle & Save on Rak & Deluge Outerwear Kits
-				</mj-text>
-				<mj-text 
-					css-class="mc-hideable mc-edit-hero_copy"
-					align="center" 
-					padding-top="20px" 
-					font-size="14px" 
-					line-height="1.5" 
-					padding-left="40px" 
-					padding-right="40px"
-					>
-					These kits are designed to extend your riding season and so much more. And this is our steepest discount of the year.
-				</mj-text>
-			</mj-column>
-		</mj-section>
+		<mj-raw><div mc:hideable></mj-raw>
+			<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+				<mj-column width="480px">
+					<mj-spacer height="20px" />
+					<mj-text
+						align="center"
+						font-size="22px"
+						font-weight="bold"
+						padding-bottom="0px"
+						padding-left="40px"
+						padding-right="40px">THE INSIDE TRACK</mj-text>
+					<mj-text align="center" font-style="italic" font-weight="600" padding-left="40px" padding-right="40px">Bundle & Save on Rak & Deluge Outerwear Kits</mj-text>
+					<mj-text align="center" padding-top="20px" font-size="14px" line-height="1.5" padding-left="40px" padding-right="40px">These kits are designed to extend your riding season and so much more. And this is our steepest discount of the year.</mj-text>
+				</mj-column>
+			</mj-section>
+		<mj-raw></div></mj-raw>
 	<mj-raw></div></mj-raw>
 	
 	<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
