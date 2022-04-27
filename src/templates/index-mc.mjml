@@ -6,24 +6,7 @@
 
 {% block content %}
 
-	<mj-section background-color="#0a0a0a">
-		<mj-column>
-			<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/b2a2b906-bdbd-4bec-ae22-de705596d25d.png" alt="Mosko Moto" width="217px" align="left" css-class="small-float-center" />
-		</mj-column>
-		<mj-column css-class="show-for-large" >
-			<mj-navbar align="right" padding-right="40px">
-				<mj-navbar-link href="https://moskomoto.com/collections/apparel" color="#fff" font-weight="bold" font-size="14px">
-					Apparel
-				</mj-navbar-link>
-				<mj-navbar-link href="https://moskomoto.com/collections/motorcycle-luggage" color="#fff" font-weight="bold" font-size="14px">
-					Luggage
-				</mj-navbar-link>
-				<mj-navbar-link href="https://moskomoto.com/blogs/mosko-moto-blog" color="#fff" font-weight="bold" font-size="14px">
-					Blog
-				</mj-navbar-link>
-			</mj-navbar>
-		</mj-column>
-	</mj-section>
+	{% include "header.mjml" %}
 
 	<mj-raw><div mc:hideable></mj-raw>
 		<mj-section background-color="#00A8E8" padding="0 16px">
@@ -47,7 +30,7 @@
 				<mj-text
 					css-class="mc-hideable mc-edit-hero_headline1"
 					align="center"
-					font-size="22px"
+					font-size="24px"
 					font-weight="800"
 					padding-bottom="0px"
 					padding-left="40px"
@@ -62,6 +45,7 @@
 					font-weight="600" 
 					padding-left="40px" 
 					padding-right="40px"
+          font-size="16px"
 					>
 					Bundle & Save on Rak & Deluge Outerwear Kits
 				</mj-text>
@@ -69,7 +53,7 @@
 					css-class="mc-hideable mc-edit-hero_copy"
 					align="center" 
 					padding-top="20px" 
-					font-size="14px" 
+					font-size="16px" 
 					line-height="1.5" 
 					padding-left="40px" 
 					padding-right="40px"
@@ -83,7 +67,7 @@
 	<mj-raw><div mc:repeatable="mosko_section" mc:variant="divider"></mj-raw>
 		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
 			<mj-column>
-				<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/6e2b5dff-0985-4bc6-aa58-91003e94b6a1.jpg" alt="" width="600px" padding="0" />
+				<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/5fc3eb92-937d-60b7-34f7-108c9dbf5a8d.png" alt="" width="600px" padding="0" />
 			</mj-column>
 		</mj-section>
 	<mj-raw></div></mj-raw>
@@ -94,7 +78,7 @@
 				<mj-text 
         css-class="mc-edit-centered_headline"
 				align="center"
-				font-size="22px"
+				font-size="24px"
 				font-weight="bold"
 				padding-left="40px" 
 				padding-right="40px">
@@ -116,7 +100,7 @@
         <mj-text 
         css-class="grid-2 mc-edit-two_col1_headline mc-hideable"
         align="center"
-        font-size="18px"
+        font-size="20px"
         font-weight="bold"
         padding-bottom="0"
         padding-left="40px"
@@ -126,7 +110,7 @@
         <mj-text 
         css-class="grid-2 mc-edit-two_col1_copy mc-hideable"
         align="center"
-        font-size="14px"
+        font-size="16px"
         padding-top="10px"
         padding-left="40px"
         padding-right="10px">
@@ -160,7 +144,7 @@
         <mj-text 
         css-class="grid-2 mc-edit-two_col2_copy mc-hideable"
         align="center"
-        font-size="14px"
+        font-size="16px"
         padding-top="10px"
         padding-left="10px"
         padding-right="40px">
@@ -240,7 +224,7 @@
         <mj-text 
           css-class="grid-2 small-text-center mc-hideable mc-edit-left_imgtext_headline"
           align="left"
-          font-size="18px"
+          font-size="20px"
           font-weight="bold"
           padding-left="20px"
           padding-right="40px">
@@ -249,7 +233,7 @@
         <mj-text 
         css-class="grid-2 small-text-center mc-hideable mc-edit-left_imgtext_copy"
         align="left"
-        font-size="14px"
+        font-size="16px"
         padding-top="10px"
         padding-left="20px"
         padding-right="40px"
@@ -276,7 +260,7 @@
         <mj-text 
         css-class="grid-2 small-text-center mc-hideable mc-edit-right_imgtext_headline"
         align="left"
-        font-size="18px"
+        font-size="20px"
         font-weight="bold"
         padding-left="40px"
         padding-right="20px">
@@ -285,7 +269,7 @@
         <mj-text 
         css-class="grid-2 small-text-center mc-hideable mc-edit-right_imgtext_copy"
         align="left"
-        font-size="14px"
+        font-size="16px"
         padding-top="10px"
         padding-left="40px"
         padding-right="20px"
@@ -302,6 +286,19 @@
       </mj-column>
     </mj-section>
   <mj-raw></div></mj-raw>
+
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="button"></mj-raw>
+    <mj-section padding-top="20px" padding-bottom="0px" background-color="#f7f7f7">
+      <mj-column>
+        <mj-button 
+            href="#" 
+            css-class="btn-link mc-hideable mc-edit-btn_only">
+            |CTA HERE|
+          </mj-button>
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+
 	{% include "footer.mjml" %}
 
 {% endblock %}

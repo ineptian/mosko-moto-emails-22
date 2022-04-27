@@ -1,0 +1,190 @@
+{% extends "default.mjml" %}
+
+{% block title %} *|MC:SUBJECT|* {% endblock %}
+{% block preheader %} *|MC_PREVIEW_TEXT|* {% endblock %}
+{% block containerbg %}background-color="#FFF"{% endblock %}
+
+{% block content %}
+
+	{% include "header.mjml" %}
+
+	<mj-raw><div mc:hideable></mj-raw>
+		<mj-section background-color="#00A8E8" padding="0 16px">
+			<mj-column>
+				<mj-text align="center" color="#fff" font-weight="800" letter-spacing="2px" padding="12px 25px" css-class="mc-edit-alert_text">
+					TOUGH GEAR HARD TRAVEL
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	<mj-raw></div></mj-raw>
+
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="hero_zone"></mj-raw>
+		<mj-section padding-bottom="0" padding-top="0" css-class="mc-hideable">
+			<mj-column>
+				<mj-image src="https://via.placeholder.com/600x400" alt="" padding="0px" css-class="mc-edit-hero_image" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0" css-class="mc-hideable">
+			<mj-column width="480px">
+        <mj-spacer height="30px" css-class="mc-hideable" />
+				<mj-text
+					css-class="mc-hideable mc-edit-hero_headline1"
+					align="center"
+					font-size="24px"
+					font-weight="800"
+          padding-top="0px"
+          padding-bottom="20px"
+					>
+					<b>THE INSIDE TRACK</b>
+				</mj-text>
+				<mj-text 
+					css-class="mc-hideable mc-edit-hero_headline2"
+					align="center" 
+					font-style="italic" 
+					font-weight="600" 
+          padding-top="0px"
+          padding-bottom="30px"
+          font-size="16px"
+					>
+					April 20, 2022<br/>fom White Salmon, WA
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	<mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="centered text"></mj-raw>
+  <mj-section background-color="#f7f7f7" padding-top="0px" padding-bottom="0px">
+    <mj-column>
+      <mj-text 
+					css-class="mc-hideable mc-edit-hero_copy"
+					align="center" 
+					padding-top="0px" 
+          padding-bottom="0px"
+					font-size="18px" 
+					line-height="1.5" 
+					>
+					These kits are designed to extend your riding season and so much more. And this is our steepest discount of the year.
+				</mj-text>
+    </mj-column>
+  </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="button"></mj-raw>
+    <mj-section padding-top="20px" padding-bottom="0px" background-color="#f7f7f7">
+      <mj-column>
+        <mj-button 
+            href="#" 
+            css-class="btn-link mc-hideable mc-edit-btn_only">
+            |CTA HERE|
+          </mj-button>
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+	
+	<mj-raw><div mc:repeatable="mosko_section" mc:variant="divider"></mj-raw>
+		<mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+			<mj-column>
+				<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/5fc3eb92-937d-60b7-34f7-108c9dbf5a8d.png" alt="" width="600px" padding="0" />
+			</mj-column>
+		</mj-section>
+	<mj-raw></div></mj-raw>
+  
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 6px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="6px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 10px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="10px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 30px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="30px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="spacer 60px"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-bottom="0" padding-top="0">
+      <mj-column width="">
+        <mj-spacer height="60px" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+  
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="image collage 1"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-top="0px" padding-bottom="0px" padding-left="6px" padding-right="6px">
+      <mj-column>
+        <mj-image 
+          src="https://via.placeholder.com/576x300" 
+          width="576px"
+          alt="" 
+          padding="0px 6px 12px"
+          fluid-on-mobile="true"
+          css-class="mc-edit-collage-img1" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="image collage 2"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-top="0px" padding-bottom="0px" padding-left="6px" padding-right="6px">
+      <mj-column>
+        <mj-image 
+          src="https://via.placeholder.com/282x188" 
+          width="300px"
+          alt="" 
+          padding="0px 6px 12px"
+          fluid-on-mobile="true"
+          css-class="mc-edit-collage-img2-1" />
+      </mj-column>
+      <mj-column>
+        <mj-image 
+          src="https://via.placeholder.com/282x188" 
+          width="300px"
+          alt="" 
+          padding="0px 6px 12px"
+          fluid-on-mobile="true"
+          css-class="mc-edit-collage-img2-2" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+
+  <mj-raw><div mc:repeatable="mosko_section" mc:variant="image collage 3"></mj-raw>
+    <mj-section background-color="#f7f7f7" padding-top="0px" padding-bottom="0px" padding-left="6px" padding-right="6px">
+      <mj-column>
+        <mj-image 
+        src="https://via.placeholder.com/184x184" 
+        width="200px"
+        alt="" 
+        padding="0px 6px 12px"
+        fluid-on-mobile="true"
+        css-class="mc-edit-collage-img3-1" />
+      </mj-column>
+      <mj-column>
+        <mj-image 
+        src="https://via.placeholder.com/184x184" 
+        width="200px"
+        alt="" 
+        padding="0px 6px 12px"
+        fluid-on-mobile="true"
+        css-class="mc-edit-collage-img3-2" />
+      </mj-column>
+      <mj-column>
+        <mj-image 
+        src="https://via.placeholder.com/184x184" 
+        width="200px"
+        alt="" 
+        padding="0px 6px 12px"
+        fluid-on-mobile="true"
+        css-class="mc-edit-collage-img3-3" />
+      </mj-column>
+    </mj-section>
+  <mj-raw></div></mj-raw>
+
+	{% include "footer.mjml" %}
+
+{% endblock %}

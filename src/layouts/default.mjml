@@ -93,6 +93,30 @@
 				<mj-html-attribute name="mc:edit">right_imgtext_btn</mj-html-attribute>
 			</mj-selector>
 
+			<mj-selector path=".mc-edit-btn_only a">
+				<mj-html-attribute name="mc:edit">btn_only_btn</mj-html-attribute>
+			</mj-selector>
+
+			<mj-selector path=".mc-edit-collage-img1 img">
+				<mj-html-attribute name="mc:edit">collage_img_1_1</mj-html-attribute>
+			</mj-selector>
+			<mj-selector path=".mc-edit-collage-img2-1 img">
+				<mj-html-attribute name="mc:edit">collage_img_2_1</mj-html-attribute>
+			</mj-selector>
+			<mj-selector path=".mc-edit-collage-img2-2 img">
+				<mj-html-attribute name="mc:edit">collage_img_2_1</mj-html-attribute>
+			</mj-selector>
+			<mj-selector path=".mc-edit-collage-img3-1 img">
+				<mj-html-attribute name="mc:edit">collage_img_3_1</mj-html-attribute>
+			</mj-selector>
+			<mj-selector path=".mc-edit-collage-img3-2 img">
+				<mj-html-attribute name="mc:edit">collage_img_3_2</mj-html-attribute>
+			</mj-selector>
+			<mj-selector path=".mc-edit-collage-img3-3 img">
+				<mj-html-attribute name="mc:edit">collage_img_3_3</mj-html-attribute>
+			</mj-selector>
+
+
 		</mj-html-attributes>
 
 		<mj-breakpoint width="600px" />
@@ -111,6 +135,7 @@
 			<mj-text 
 				font-family="'Open Sans',Helvetica,Arial,sans-serif"
 				color="#343434"
+				line-height="1.2"
 			/>
 			<mj-social
 				font-family="'Open Sans',Helvetica,Arial,sans-serif"

@@ -15,25 +15,45 @@
 		<mj-divider border-width="4px" border-color="#00A8E8" padding="0" />
 	</mj-column>
 </mj-section>
+<mj-section background-color="#0a0a0a">
+  <mj-column vertical-align="middle" width="330px">
+    <mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" alt="Mosko Moto" width="280px" href="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" />
+  </mj-column>
+  <mj-column vertical-align="middle" width="270px">
+    <mj-social icon-size="27px" mode="horizontal" inner-padding="8px" padding-bottom="0" padding-top="0">
+      <mj-social-element 
+        src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/db3c2dbd-f7f5-473c-a3a0-31097b019d14.png" 
+        alt="Instagram" 
+        href="https://www.instagram.com/moskomoto/">
+      </mj-social-element>
+      <mj-social-element 
+        src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/411cce80-e49f-46aa-a17d-9fa0f4523bff.png" 
+        alt="Facebook" 
+        href="https://www.facebook.com/moskomoto">
+      </mj-social-element>
+      <mj-social-element 
+        src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/dbfffe62-45bc-424d-8b9f-b23deabf3ab6.png" 
+        alt="Youtube" 
+        href="https://www.youtube.com/moskomoto">
+      </mj-social-element>
+      <mj-social-element 
+        src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/bd4b7f33-3dc1-47d6-8ee4-e577fdae8c63.png" 
+        alt="Twitter" 
+        href="https://twitter.com/MoskoMoto">
+      </mj-social-element>
+      <mj-social-element 
+        src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/a12edb63-d910-4252-8873-08dcdfa4304a.png" 
+        alt="Pinterest" 
+        href="https://www.pinterest.com/moskomoto/">
+      </mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>
 <mj-section background-color="#0a0a0a" background-url="https://mcusercontent.com/fd2ff16c3a73d907d4452b036/images/e2bac4d5-a893-4ae9-b92c-b67730789848.png" background-repeat="no-repeat" background-position="center center">
   <mj-column>
-    <mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" alt="Mosko Moto" width="280px" href="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" padding-bottom="40px" />
-    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600">
-      <a href="tel:+15092813211" style="color:#00A8E8;">
-        <!-- <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;">  -->
-        US: +1 509-281-3211
-      </a>
-    </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600" padding-top="0px">
-      <a href="tel:+4915174212658" style="color:#00A8E8;">
-        <!-- <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;">  -->
-        EU: +49 151 74212658
-      </a>
-    </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600" padding-top="0px">
-      <a href="tel:+34671035873" style="color:#00A8E8;">
-        <!-- <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;">  -->
-        ES: +34 671 035873
+    <mj-text align="center" color="#00A8E8" font-size="18px" font-weight="600">
+      <a href="tel:5092813211" style="color:#00A8E8;">
+        <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;"> 509-281-3211
       </a>
     </mj-text>
     <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600" font-style="italic">
@@ -47,16 +67,16 @@
       </a>
     </mj-text>
 
-    <mj-text align="center" color="#fefefe" font-size="12px" padding-top="40px" padding-bottom="0px">
+    <mj-text align="center" color="#fefefe" font-size="14px" padding-top="40px">
       Want to change how you receive these emails?
     </mj-text>
-    <mj-text align="center" color="#fefefe" font-size="12px" padding-bottom="0px">
+    <mj-text align="center" color="#fefefe" font-size="14px">
       You can <a href="*|UPDATE_PROFILE|*" style="color:#00A8E8;font-family:'Open Sans', Helvetica, Arial, sans-serif;font-weight:300;line-height:1.3;padding:0;text-align:left;text-decoration:none;">update your preferences</a> or <a href="*|UNSUB|*" style="color:#00A8E8;font-family:'Open Sans', Helvetica, Arial, sans-serif;font-weight:300;line-height:1.3;padding:0;text-align:left;text-decoration:none;">unsubscribe</a> from this list.
     </mj-text>
-    <mj-text align="center" color="#fefefe" font-size="12px" padding-top="10px">
+    <mj-text align="center" color="#fefefe" font-size="14px" padding-top="20px">
       © *|CURRENT_YEAR|* Mosko Moto, All rights reserved.
     </mj-text>
-    <mj-text align="center" color="#fefefe" font-size="10px" padding-bottom="20px">
+    <mj-text align="center" color="#fefefe" font-size="12px" padding-bottom="40px">
       *|LIST:ADDRESSLINE|*
     </mj-text>
   </mj-column>

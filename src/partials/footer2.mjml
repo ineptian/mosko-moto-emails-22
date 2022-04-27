@@ -15,9 +15,13 @@
 		<mj-divider border-width="4px" border-color="#00A8E8" padding="0" />
 	</mj-column>
 </mj-section>
-<mj-section background-color="#0a0a0a" background-url="https://mcusercontent.com/fd2ff16c3a73d907d4452b036/images/e2bac4d5-a893-4ae9-b92c-b67730789848.png" background-repeat="no-repeat" background-position="center center">
+<mj-section background-color="#0a0a0a">
   <mj-column>
-    <mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" alt="Mosko Moto" width="280px" href="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" padding-bottom="40px" />
+    <mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" alt="Mosko Moto" width="280px" href="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/8949af6d-28bb-447a-97b5-a77d8beb5e15.png" />
+  </mj-column>
+</mj-section>
+<mj-section background-color="#0a0a0a" background-repeat="no-repeat" background-position="center center">
+  <mj-column>
     <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600">
       <a href="tel:+15092813211" style="color:#00A8E8;">
         <!-- <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/73fe2cb6-09fc-456f-bf4b-fb9d0614d4c6.png" alt="" width="17" style="width:100%;max-width:17px;vertical-align: middle;">  -->
@@ -36,17 +40,22 @@
         ES: +34 671 035873
       </a>
     </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600" font-style="italic">
+  </mj-column>
+  <mj-column>
+    <mj-text align="" color="#00A8E8" font-size="14px" font-weight="600" font-style="italic">
       <a href="mailto:moskomoto@moskomoto.com" style="color:#00A8E8;">
         <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/0e1f9679-3c64-4a59-ac32-37ed446522f8.png" alt="" width="15" style="width:100%;max-width:15px;vertical-align: middle;"> moskomoto@moskomoto.com
       </a>
     </mj-text>
-    <mj-text align="center" color="#00A8E8" font-size="14px" font-weight="600">
+    <mj-text align="" color="#00A8E8" font-size="14px" font-weight="600">
       <a href="https://moskomoto.com/pages/busted-gear" style="color:#00A8E8;">
         <img src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/f13633ec-a1fe-4d5e-948a-453707e026fd.png" alt="" width="30" style="width:100%;max-width:30px;vertical-align: middle;"> Our Warranty
       </a>
     </mj-text>
-
+  </mj-column>
+</mj-section>
+<mj-section background-color="#0a0a0a" background-url="https://mcusercontent.com/fd2ff16c3a73d907d4452b036/images/e2bac4d5-a893-4ae9-b92c-b67730789848.png" background-repeat="no-repeat" background-position="center center">
+  <mj-column>
     <mj-text align="center" color="#fefefe" font-size="12px" padding-top="40px" padding-bottom="0px">
       Want to change how you receive these emails?
     </mj-text>

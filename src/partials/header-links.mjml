@@ -1,0 +1,18 @@
+<mj-section background-color="#0a0a0a">
+		<mj-column>
+			<mj-image src="https://mcusercontent.com/f93d4b69baf4b25ad91d61a90/images/b2a2b906-bdbd-4bec-ae22-de705596d25d.png" alt="Mosko Moto" width="217px" align="left" href="https://moskomoto.com/" css-class="small-float-center" />
+		</mj-column>
+		<mj-column css-class="show-for-large" >
+			<mj-navbar align="right" padding-right="40px">
+				<mj-navbar-link href="https://moskomoto.com/collections/apparel" color="#fff" font-weight="bold" font-size="14px">
+					Apparel
+				</mj-navbar-link>
+				<mj-navbar-link href="https://moskomoto.com/collections/motorcycle-luggage" color="#fff" font-weight="bold" font-size="14px">
+					Luggage
+				</mj-navbar-link>
+				<mj-navbar-link href="https://moskomoto.com/blogs/mosko-moto-blog" color="#fff" font-weight="bold" font-size="14px">
+					Blog
+				</mj-navbar-link>
+			</mj-navbar>
+		</mj-column>
+	</mj-section>
